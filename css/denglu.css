@@ -1,0 +1,312 @@
+body{
+			font-family: "微软雅黑";
+		}
+		a, abbr, acronym, address, applet, article, aside, audio,
+		b, blockquote, big, body,
+		center, canvas, caption, cite, code, command,
+		datalist, dd, del, details, dfn, dl, div, dt, 
+		em, embed,
+		fieldset, figcaption, figure, font, footer, form, 
+		h1, h2, h3, h4, h5, h6, header, hgroup, html,
+		i, iframe, img, ins,
+		kbd, 
+		keygen,
+		label, legend, li, 
+		meter,
+		nav,
+		object, ol, output,
+		p, pre, progress,
+		q, 
+		s, samp, section, small, span, source, strike, strong, sub, sup,
+		table, tbody, tfoot, thead, th, tr, tdvideo, tt,
+		u, ul, 
+		var{
+		    background: transparent;
+		    border: 0 none;
+		    font-size: 100%;
+		    margin: 0;
+				padding: 0;
+				border: 0;
+				outline: 0;
+		    vertical-align: top; }
+
+		ol, ul {
+			list-style: none;
+		}
+		blockquote, q {
+			quotes: none;
+		}
+		table, table td { 
+			padding:0;
+			border:none;
+			border-collapse:collapse;
+		}
+		img {
+			vertical-align:top; 
+		}
+		embed { 
+			vertical-align:top;
+		}
+
+		/* Getting the new tags to behave */
+		article, aside, audio, canvas, command, datalist, details, embed, figcaption, figure, footer, header, hgroup, keygen, meter, nav, output, progress, section, source, video {display:block;}
+		mark, rp, rt, ruby, summary, time {display:inline;}
+		.header{
+			background-image: url(../images/lansebeijing_02.jpg);
+			overflow: hidden;
+		}
+		.header-inner{
+			margin: 0 auto;
+			width: 960px;
+			padding-top: 20px;
+			padding-bottom: 20px;
+		}
+		.logo{
+			width: 139px;
+			float: left;
+			width: 375px;
+		}
+		.logo>img{
+			float: left;
+		}
+		.logo>p{
+			font-size: 20px;
+			display: block;
+			float: left;
+			width: 200px;
+			margin-left: 25px;
+			color: #ff7297;
+			font-weight: 600;
+		}
+		.header-bottom{
+			background-color: #ff7297;
+			overflow: hidden;
+			padding-top: 5px;
+			padding-bottom: 5px;
+		}
+		.header-bot-inner{
+			margin: 0 auto;
+			width: 960px;
+		}
+		.nav ul{
+			list-style: none;
+			float: left;
+		}
+		.nav ul li{
+			float: left;
+			margin-right: 35px;
+		}
+		.nav ul li a{
+			color: #fff;
+			line-height: 20px;
+			text-decoration: none;
+		}
+		.nav ul li a:hover{
+			color:#72bcde;
+		}
+		.denglu{
+			overflow: hidden;
+			background-image: url(../images/xiaobeijin_03.jpg);
+			-webkit-background-size: 100% 100%;
+			background-size: 100% 100%;
+			width: 250px;
+			float: left;
+			margin-left: 70px;
+			border-radius: 5px;
+		}
+		.denglu img{
+			margin-top: 15px;
+		}
+		.denglu>a {
+			line-height: 40px;
+			text-decoration: none;
+			margin-right: 13px;
+			padding-top: 6px;
+			font-size: 15px;
+		}
+		.denglu .img1{
+			margin-top: 5px;
+			width: 25px;
+			height: 30px;
+		}
+		.denglu .img2{
+			margin-left: 35px;
+		}
+		.img3{
+			width: 100%;
+		}
+		.aside>a{
+			float: right;
+			display: block;
+			width: 50px;
+			line-height: 20px;
+			font-size: 14px;
+			background-image: url(../images/denglu_03.jpg);
+			color: #ff7497;
+			text-decoration: none;
+			text-align: center;
+			box-shadow: 2px 2px 5px #be5571;
+			border-radius: 5px;
+			margin-left: 20px;
+		}
+		.aside>a:hover{
+			color:blue;
+		}
+		.main{
+			background-color: #f3e8dc;
+			overflow: hidden;
+			padding-top: 30px;
+		}
+		.main-inner{
+			width: 960px;
+			margin: 0 auto;
+			overflow: hidden;
+			padding-bottom: 10px;
+			background-color: #fff;
+			box-shadow: 0px 0px 10px 3px #dad0c6;
+			border: 2px #dad0c6 solid;
+		}
+		.main-inner-left{
+			float: left;
+			width: 725px;
+			overflow: hidden;
+			padding-top: 50px;
+			background-color: #fff;
+		}
+		.main-inner-left-top{
+			border-right: 1px solid #e5e5e5;
+			width: 665px;
+			overflow: hidden;
+		}
+		.main-inner-left-top>p{
+			font-size: 30px;
+			margin-left: 70px;
+			color: #768263;
+		}
+		.main-inner-left-top>ul{
+			margin-top: 20px;
+			margin-left: 100px;
+		}
+		.main-inner-left-top>ul input{
+			border: 2px solid #cfcfcf;
+			border-radius: 5px;
+			width: 235px;
+			margin-bottom: 20px;
+			line-height: 25px;
+		}
+		.main-inner-left-top>ul label{
+			display: block;
+			float: left;
+			width: 70px;
+			margin-top: 2px;
+			color: #333333;
+		}
+		.main-inner-left-top>ul li{
+			font-size: 13px;
+		}
+		.main-inner-left-top>ul li span{
+			margin-left: 60px;
+			font-weight: 600;
+		}
+		.main-inner-left-top>ul li p{
+			color: #87bd34;
+			float: right;
+			margin-right: 230px;
+			cursor: pointer;
+		}
+		.main-inner-left-top>ul li img{
+			margin-top: 5px;
+			cursor: pointer;
+		}
+		.main-inner-left-top>input{
+			margin-left: 170px;
+			margin-top: 20px;
+			float: left;
+		}
+		.main-inner-left-top>span{
+			margin-top: 17px;
+			font-size: 13px;
+			color: #999999;
+			float: left;
+		}
+		.a-1{
+			float: left;
+			clear: both;
+			display: block;
+			text-decoration: none;
+			text-align: center;
+			width: 85px;
+			border-radius: 5px;
+			background-color: #87bd34;
+			line-height: 30px;
+			color:#fff;
+			margin-left: 170px;
+			margin-top: 15px;
+		}
+		.a-2{
+			float: left;
+			margin-top: 20px;
+			font-size: 13px;
+			margin-left: 15px;
+			color: #666666;
+		}
+		.main-inner-left-top p:last-child{
+			font-size: 14px;
+			float: left;
+			clear: both;
+			margin-top: 50px;
+			margin-left: 170px;
+		}
+		.main-inner-left-bottom{
+			overflow: hidden;
+			margin-left: 170px;
+			margin-top: 10px;
+			margin-bottom: 90px;
+		}
+		.main-inner-right{
+			width: 235px;
+			overflow: hidden;
+			background-color: #fff;
+			float: right;
+			padding-bottom: 380px;
+		}
+		.main-inner-right p{
+			font-size: 25px;
+			color: #908263;
+			margin-top: 50px;
+		}
+		.main-inner-right span{
+			color: #333333;
+			margin-top: 50px;
+			float: left;
+		}
+		.main-inner-right a{
+			float: left;
+			clear: both;
+			text-decoration: none;
+			text-align: center;
+			display: block;
+			width: 110px;
+			background-color: #ff5783;
+			color: #fff;
+			line-height: 30px;
+			margin-top: 20px;
+			border-radius: 5px;
+		}
+		.footer{
+			overflow: hidden;
+			background-color: #f3e8dc;
+			padding-bottom: 30px;
+			text-align: center;
+		}
+		.footer p{
+			font-size: 13px;
+			margin-top: 30px;
+			color: #666666;
+		}
+		.main .red{
+			color:red;
+		}
+		.main .green{
+			color: green;
+		}
